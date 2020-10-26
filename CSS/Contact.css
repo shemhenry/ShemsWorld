@@ -1,0 +1,58 @@
+/* CSS Document */
+body{
+	background: url('https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1255&q=80') no-repeat center center/cover;;
+	height: 100vh;
+	width: 100%;
+	
+	
+	
+}
+
+.header{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'sans-serif';
+	font-size: 450%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	text-align: center;
+	margin: 40px;
+	padding: 70px;
+	text-decoration-line: none;
+}
+
+
+
+ul li{
+	text-decoration: none;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	font-size: 30px;
+	margin: 0px;
+	padding: 20px;
+}
+
+
+a:link{
+	text-decoration: none;
+	color: cadetblue;
+	display: flex;
+    flex-direction: column;
+	text-align: center;
+	font-size: 30px;
+}
+
+a:hover {
+ color: rebeccapurple;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+ color: cadetblue;
+}
